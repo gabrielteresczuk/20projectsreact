@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+
 import './App.css';
+import FormValidator from './Projects/01-form-validator/index.js';
+import Inicio from './Projects/Inicio/index.js';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+        <BrowserRouter >
+        <Routes>
+          <Route path="/" element={<Inicio/>}/>
+          <Route path="/FormValidator" element={<FormValidator/>}/>
+        </Routes>
+        </BrowserRouter>
+
     </div>
   );
 }

@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+
+
+.inicio{
+    width: 100%;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.inicio_hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 1rem;
+    width: 100%;
+}
+
+.inicio_hero h1{
+    font-size: 5rem;
+    text-align: center;
+    color: #fafafa;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.inicio_hero h2{
+    color: #fafafa96;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.inicio_cont{
+    max-width: 1200px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 3rem;
+
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+
+.inicio_cont h1{
+    font-size: 3rem;
+    font-weight: 900;
+    color: #111;
+    
+}
+
+.link{
+    color: #000000;
+    font-weight: 700;
+}
+
+a,p{
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #111;
+}
+
+/* -------------- cards ------------- */
+
+.card_cont{
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    
+
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.card{
+    padding: 1rem;
+    width: 50%;
+    flex-grow: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card h3{
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.card p{
+    color: #999;
+}
+.card_img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card_btn{
+    width: 100%;
+    padding: 1rem;
+    text-decoration: none;
+    border: 1px solid transparent;
+    background-color: #008484;
+    border-radius: 10px;
+    color: #fafafa;
+    font-weight: 400;
+}
+
+.card_btn:hover{
+    border: 1px solid #008484;
+    background-color: #fafafa;
+    color: #008484;
+}
