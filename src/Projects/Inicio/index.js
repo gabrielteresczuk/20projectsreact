@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 function Inicio() {
   return (
     <div className='inicio'>
-        <div className='inicio_hero' style={{       backgroundImage: `url("img/bg.jpg")`     }}>
+        <div className='inicio_hero' style={{       backgroundImage: `url("20projectsreact/img/bg.jpg")`     }}>
             <h1>20 Proyectos con React.js</h1>
             <h2>Proyectos de Javascript realizados con React.js</h2>
         </div>
@@ -19,7 +19,7 @@ function Inicio() {
 
             <div className='card_cont'>
                 <div className='card'>
-                    <img className='card_img' src="img/01.jpg"></img>
+                    <img className='card_img' src="20projectsreact/img/01.jpg"></img>
                     <h3>Form Validator</h3>
                     <p>Validacion manual de formulario.</p>
                     <NavLink
@@ -30,7 +30,7 @@ function Inicio() {
                     </NavLink>
                 </div>
                 <div className='card'>
-                    <img className='card_img' src="img/01.jpg"></img>
+                    <img className='card_img' src="20projectsreact/img/01.jpg"></img>
                     <h3>Form Validator</h3>
                     <p>Validacion manual de formulario.</p>
                     <NavLink
@@ -41,7 +41,7 @@ function Inicio() {
                     </NavLink>
                 </div>
                 <div className='card'>
-                    <img className='card_img' src="img/01.jpg"></img>
+                    <img className='card_img' src="20projectsreact/img/bg.jpg"></img>
                     <h3>Form Validator</h3>
                     <p>Validacion manual de formulario.</p>
                     <NavLink

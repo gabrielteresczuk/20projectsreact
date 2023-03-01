@@ -10,7 +10,9 @@ function App() {
       
         <BrowserRouter >
         <Routes>
+
           <Route path="/" element={<Inicio/>}/>
+          <Route path="/20projectsreact" element={<Inicio/>}/>
           <Route path="/FormValidator" element={<FormValidator/>}/>
         </Routes>
         </BrowserRouter>
