@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 20 proyectos con React.js
 
-## Available Scripts
+  
 
-In the project directory, you can run:
+![preview](./public/img/preview.jpg)
 
-### `npm start`
+  
+  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**20 Poyectos con react.js**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+***HTML - CSS - JAVASCRIPT - REACT.js***
 
-### `npm test`
+  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[Ver demo 👀](https://gabrielteresczuk.github.io/20projectsreact/)
 
-### `npm run build`
+  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Descripción 📑
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Se realiza este proyecto a modo de practica, logrando completar todos los desafíos propuestos por [# 20+ Web Projects With Vanilla JavaScript](https://github.com/bradtraversy/vanillawebprojects)
 
-### `npm run eject`
+  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Los objetivos a lograr son los siguientes:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Realizar con React, una interfaz para administracion y visualizacion de los mini proyectos
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Adjuntar todos los proyectos .
 
-## Learn More
+3. Tomar solo la ayuda visual, sin depender de los codigos.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Intentar mejorar la versión original.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. Dar alguna otra pequeña opcion extra o cambio en el diseño.
 
-### Code Splitting
+6. Recopilar todo lo aprendido en esta guía.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+### Que aprendí 💡
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+  
 
-### Making a Progressive Web App
+En esta sección se detallaran, algunas técnicas que se aprendieron a lo largo de la realización del proyecto.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+  
+1 - useRef();
 
-### Advanced Configuration
+```jsx
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+const  usuario = useRef();
+<input  type='text'  name='usuario'  id='usuario'  
+ref={usuario}/>
+usuario.current.className = 'rojo';
 
-### Deployment
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  
+  
+
+## Autor 😎
+
+  
+
+- Linkedin - [in/gabriel-teresczuk](https://www.linkedin.com/in/gabriel-teresczuk/)
