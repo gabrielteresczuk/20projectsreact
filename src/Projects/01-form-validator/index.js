@@ -107,7 +107,7 @@ function FormValidator() {
 
             <div className='form_fila'>
                 <div className='input_cont'>
-                    <span class="material-symbols-rounded icon">person</span>
+                    <span className="material-symbols-rounded icon">person</span>
                     <label htmlFor='usuario'>Usuario:</label>
                 </div>
                 
@@ -124,7 +124,7 @@ function FormValidator() {
             
             <div className='form_fila'>
                 <div className='input_cont'>
-                    <span class="material-symbols-rounded icon">mail</span>
+                    <span className="material-symbols-rounded icon">mail</span>
                     <label htmlFor='email'>Email:</label>
                 </div>
                 <input type='text' name='email' id='email'  placeholder='Direccion de Correo' 
@@ -136,7 +136,7 @@ function FormValidator() {
 
             <div className='form_fila'>
                 <div className='input_cont'>
-                    <span class="material-symbols-rounded icon">password</span>
+                    <span className="material-symbols-rounded icon">password</span>
                     <label htmlFor='pass'>Contraseña</label>
                 </div>
                 <input type='password' name='pass'  id='pass' placeholder='Contraseña'
@@ -148,7 +148,7 @@ function FormValidator() {
 
             <div className='form_fila'>
                 <div className='input_cont'>
-                    <span class="material-symbols-rounded icon">password</span>
+                    <span className="material-symbols-rounded icon">password</span>
                     <label htmlFor='repass'>Confirmar Contraseña</label>
                 </div>
                 <input type='password' name='repass' id='repass' placeholder='Confirmar Contraseña' 

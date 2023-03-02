@@ -1,70 +1,14 @@
-import React, { useState } from 'react'
+
 import './style.css'
 import { NavLink } from "react-router-dom";
-import {db} from './db.js'
 
-console.log(db);
 
-function Inicio() {
+function Inicio({db}) {
 
-   
-
-    const [navactive, setNavactive] = useState(false);
-    const [listado, setListado] = useState(false);
-
-    window.addEventListener('scroll',()=>{
-        if(window.scrollY > 110){
-           setNavactive(true);
-        }else{
-            setNavactive(false);
-        }
-    })
-
-    const handleListado = () =>{
-        setListado(!listado);
-    }
 
   return (
     <div className='inicio' >
-        <div className={navactive ? 'inicio_nav navactive' : 'inicio_nav'} >
-            <nav className='nav'>
-            <div className='home'>
-                <span className="material-symbols-rounded">
-                satellite_alt
-                </span>
-            Home
-            </div>
-            <ul>
-                <li className='listado' onClick={handleListado}>
-                    <span className="material-symbols-rounded">
-                        list
-                    </span>
-                Listado
-                    {listado &&
-                    <div className='listado_cont'>
-                        {
-                            db.map((el,idx)=>
-                                <NavLink key={idx} to={"/"+el.link} className="listado_link">{idx+1} - {el.titulo}</NavLink>
-                            )
-                        }
 
-                    </div>
-                    }
-                </li>
-                <li>
-                    <span className="material-symbols-rounded">
-                        arrow_back_ios
-                    </span>
-                Anterior
-                </li>
-                <li>Siguiente
-                    <span className="material-symbols-rounded">
-                        arrow_forward_ios
-                    </span>
-                </li>
-            </ul>
-            </nav>
-        </div>
         <div className='inicio_hero' style={{       backgroundImage: `url("`+process.env.PUBLIC_URL+`/img/bg2.jpg")`     }}>
             <h1>20 Proyectos con React.js</h1>
             <h2>Proyectos de Javascript realizados con React.js</h2>

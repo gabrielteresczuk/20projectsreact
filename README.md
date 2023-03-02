@@ -73,7 +73,7 @@ Uso de Evento
 
 onChange={handleBar}
 ```
-Uso de funcion anonima
+Uso de funcion anonima, cuando queremos pasar un parametro
 ```jsx
  const handlePlay = () =>{
         video.current.play();
@@ -81,7 +81,12 @@ Uso de funcion anonima
  <button onClick={()=>handlePlay()}>
 ``` 
 
+3 - importacion
 
+``` jsx
+export const db [{}]
+import {db} from './db.js'
+``` 
   
   
 
