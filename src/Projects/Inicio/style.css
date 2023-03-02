@@ -11,6 +11,115 @@
     align-items: center;
 }
 
+
+/* --------------- NAV -------------- */
+
+.inicio_nav{
+
+    width: 100%;
+    background-color: transparent;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000034;
+    transition: all ease 0.3s;
+}
+
+.nav{
+    max-width: 1200px;
+    width: 100%;
+    /*height: 10px;*/
+    padding: 1rem;
+
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #fafafa;
+}
+
+.nav .home{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav .home:hover{
+    cursor: pointer;
+    color: #dc7e68;
+    transition: color ease 0.3s;
+}
+
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+.nav ul li{
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.nav ul li:hover{
+    cursor: pointer;
+    color: #dc7e68;
+    transition: color ease 0.5s;
+}
+
+.navactive{
+    background-color: rgba(255,255,255,0.9);
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.2);
+}
+
+.navactive nav{
+    color: #222;
+}
+
+/* ----------- ul listado ----------- */
+
+.nav ul .listado{
+    /*background-color: red;*/
+    position: relative;
+}
+
+.listado_cont{
+    position: absolute;
+    background-color:  rgba(0,0,0,0.2);
+    top:45px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 3px;
+    width: 200px;
+    align-items: flex-start;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.3);
+
+}
+
+.listado_cont a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.navactive .listado_cont{
+    background-color: rgba(255,255,255,0.9);
+}
+
+.navactive .listado_cont a{
+    color: #111;
+}
+
+/* -------------- hero -------------- */
+
 .inicio_hero{
     display: flex;
     flex-direction: column;
@@ -47,24 +156,24 @@
     
 }
 
-h1,h2,h3,h4,h5{
+.inicio h1,h2,h3,h4,h5{
     font-family: 'Rubik', sans-serif;
     text-align: center;
 }
 
-.inicio_cont h1{
+.inicio .inicio_cont h1{
     font-size: 3rem;
     font-weight: 900;
     color: #111;
 
 }
 
-.link{
+.inicio .link{
     color: #000000;
     font-weight: 700;
 }
 
-a,p{
+.card a,p{
     font-family: 'Karla', sans-serif;
     font-weight: 400;
     font-size: 1.1rem;
@@ -73,7 +182,7 @@ a,p{
 
 /* -------------- cards ------------- */
 
-.card_cont{
+.inicio .card_cont{
     display: flex;
     flex-direction: row;
 
@@ -85,7 +194,7 @@ a,p{
     gap: 1rem;
 }
 
-.card{
+.inicio .card{
     /*padding: 1rem;*/
     width: 40%;
     flex-grow: 1;
@@ -100,15 +209,15 @@ a,p{
     
 }
 
-.card h3{
+.inicio .card h3{
     color: #333;
     font-size: 1.5rem;
 }
 
-.card p{
+.inicio .card p{
     color: #999;
 }
-.card_img{
+.inicio .card_img{
     width: 100%;
     height: 300px;
     object-fit: cover;
@@ -117,7 +226,7 @@ a,p{
     box-shadow: 1px 3px 5px 1px rgba(0,0,0,0.2);
 }
 
-.card_btn{
+.inicio .card_btn{
     width: 100%;
     padding: 1rem;
     text-decoration: none;
@@ -128,7 +237,7 @@ a,p{
     font-weight: 400;
 }
 
-.card_btn:hover{
+.inicio .card_btn:hover{
     border: 1px solid #008484;
     background-color: #fafafa;
     color: #008484;

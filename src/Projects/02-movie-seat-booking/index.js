@@ -50,7 +50,8 @@ function MovieSeatBooking() {
     
         <div className='pelicula'>
             <label>Elegi una pelicula:</label>
-            <select onChange={(e) => {handlePelicula(e.target.value)}} value={pelicula} >
+            <select className='select'
+             onChange={(e) => {handlePelicula(e.target.value)}} value={pelicula} >
                { pelidb.map((el) => <option key={el.titulo} value={el.precio}>{el.titulo} - ${el.precio}</option>)}
             </select>
         </div>

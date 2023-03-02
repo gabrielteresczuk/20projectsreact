@@ -63,6 +63,24 @@ usuario.current.className = 'rojo';
 ```
 
 
+2 -  envio de enventos
+
+Uso de Evento
+```jsx
+ const handleBar = (e) =>{
+        console.log(e.target.value);
+ }
+
+onChange={handleBar}
+```
+Uso de funcion anonima
+```jsx
+ const handlePlay = () =>{
+        video.current.play();
+ }
+ <button onClick={()=>handlePlay()}>
+``` 
+
 
   
   

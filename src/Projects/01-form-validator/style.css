@@ -41,7 +41,7 @@
     color: rgba(255, 0, 0, 0.52);
 }
 
-.form_fila{
+.FormValidator_cont .form_fila{
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -49,13 +49,13 @@
     height: 85px;
 }
 
-.input_cont{
+.FormValidator_cont .input_cont{
     display: flex;
     align-items: center;
     gap: 0.5rem;
 }
 
-.icon{
+.FormValidator_cont .icon{
     font-variation-settings:
   'FILL' 1,
   'wght' 400,
@@ -64,20 +64,20 @@
     color: rgba(0, 0, 255, 0.55);
 }
 
-label{
+.FormValidator_cont label{
     color: rgba(0, 0, 255, 0.55);
     font-weight: 600;
 }
 
 
-input{
+.form_fila input{
     padding: 10px;
     display: flex;
     border-radius: 3px;
     border: 1px solid #ccc;
 }
 
-.enviar{
+.FormValidator_cont .enviar{
     display: flex;
     padding: 15px;
 
@@ -89,22 +89,22 @@ input{
     font-size: 1rem;
 }
 
-.enviar:hover{
+.form_fila .enviar:hover{
     cursor: pointer;
     background-color: rgba(0, 0, 255, 0.80);
 }
 
 
-.rojo{
+.form_fila .rojo{
     border-color: red; 
     background-color: rgba(255, 0, 0, 0.125);
     color: red;
 }
 
-.rojo::placeholder {
+.form_fila .rojo::placeholder {
     color: rgba(255, 0, 0, 0.692);
   }
 
-.verde{
+.form_fila .verde{
     border-color: green; 
 }  
