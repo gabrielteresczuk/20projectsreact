@@ -16,5 +16,11 @@ export const db = [
             link:'CustomVideoPlayer',
             texto:'Creacion de un reproductor de video, totalmente customizado.',
             img:'03.jpg'
+        },
+        {
+            titulo:'Exchange Rate',
+            link:'ExchangeRate',
+            texto:'Tranformador de unidades monetarias con valores oficiales',
+            img:'04.jpg'
         }
     ];

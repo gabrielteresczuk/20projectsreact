@@ -7,6 +7,7 @@ import MovieSeatBooking from './Projects/02-movie-seat-booking';
 import CustomVideoPlayer from './Projects/03-custom-video-player';
 import Nav from './Projects/Nav/index.js';
 import {db} from './Projects/Inicio/db.js';
+import ExchangeRate from './Projects/04-exchange-rate';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/FormValidator" element={<FormValidator/>}/>
           <Route path="/MovieSeatBooking" element={<MovieSeatBooking/>}/>
           <Route path="/CustomVideoPlayer" element={<CustomVideoPlayer/>}/>
+          <Route path="/ExchangeRate" element={<ExchangeRate/>}/>
 
         </Routes>
         </BrowserRouter>
