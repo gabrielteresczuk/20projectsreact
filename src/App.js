@@ -9,6 +9,7 @@ import Nav from './Projects/Nav/index.js';
 import {db} from './Projects/Inicio/db.js';
 import ExchangeRate from './Projects/04-exchange-rate';
 import ArrayMethods from './Projects/05-array-methods';
+import ModalMenuSlider from './Projects/06-modal-menu-slider';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/CustomVideoPlayer" element={<CustomVideoPlayer/>}/>
           <Route path="/ExchangeRate" element={<ExchangeRate/>}/>
           <Route path="/ArrayMethods" element={<ArrayMethods/>}/>
+          <Route path="/ModalMenuSlider" element={<ModalMenuSlider/>}/>
 
 
         </Routes>

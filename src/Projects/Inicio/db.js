@@ -28,5 +28,11 @@ export const db = [
             link:'ArrayMethods',
             texto:'Uso de metodos para el manejo de array.',
             img:'05.jpg'
+        },
+        {
+            titulo:'Modal Menu Slider',
+            link:'ModalMenuSlider',
+            texto:'Realizacion de un menu modal deslizante de lado',
+            img:'06.jpg'
         }
     ];
