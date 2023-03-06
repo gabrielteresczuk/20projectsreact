@@ -8,6 +8,7 @@ import CustomVideoPlayer from './Projects/03-custom-video-player';
 import Nav from './Projects/Nav/index.js';
 import {db} from './Projects/Inicio/db.js';
 import ExchangeRate from './Projects/04-exchange-rate';
+import ArrayMethods from './Projects/05-array-methods';
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
           <Route path="/MovieSeatBooking" element={<MovieSeatBooking/>}/>
           <Route path="/CustomVideoPlayer" element={<CustomVideoPlayer/>}/>
           <Route path="/ExchangeRate" element={<ExchangeRate/>}/>
+          <Route path="/ArrayMethods" element={<ArrayMethods/>}/>
+
 
         </Routes>
         </BrowserRouter>

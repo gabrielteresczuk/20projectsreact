@@ -11,7 +11,7 @@ function Nav({db}) {
     let addr = location.pathname.substring(location.pathname.lastIndexOf('/') + 1);
 
     let index = db.findIndex(el => el.link === addr);
-    console.log(index);
+    //console.log(index);
 
     let anterior = false;
     let siguiente = true;

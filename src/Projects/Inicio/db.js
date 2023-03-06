@@ -22,5 +22,11 @@ export const db = [
             link:'ExchangeRate',
             texto:'Tranformador de unidades monetarias con valores oficiales',
             img:'04.jpg'
+        },
+        {
+            titulo:'Array Methods',
+            link:'ArrayMethods',
+            texto:'Uso de metodos para el manejo de array.',
+            img:'05.jpg'
         }
     ];
