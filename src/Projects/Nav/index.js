@@ -21,7 +21,7 @@ function Nav({db}) {
     }
 
     if(index+1 === db.length){
-        console.log('asd');
+
         siguiente = false
     }
 

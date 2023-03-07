@@ -10,6 +10,8 @@ import {db} from './Projects/Inicio/db.js';
 import ExchangeRate from './Projects/04-exchange-rate';
 import ArrayMethods from './Projects/05-array-methods';
 import ModalMenuSlider from './Projects/06-modal-menu-slider';
+import HangMan from './Projects/07-hangman';
+import MealFinder from './Projects/08-meal-finder';
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
           <Route path="/ExchangeRate" element={<ExchangeRate/>}/>
           <Route path="/ArrayMethods" element={<ArrayMethods/>}/>
           <Route path="/ModalMenuSlider" element={<ModalMenuSlider/>}/>
+          <Route path="/HangMan" element={<HangMan/>}/>
+          <Route path="/MealFinder" element={<MealFinder/>}/>
 
 
         </Routes>

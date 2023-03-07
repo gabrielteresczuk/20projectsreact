@@ -34,5 +34,17 @@ export const db = [
             link:'ModalMenuSlider',
             texto:'Realizacion de un menu modal deslizante de lado',
             img:'06.jpg'
+        },
+        {
+            titulo:'Ahorcado',
+            link:'HangMan',
+            texto:'MiniJuego del Ahorcado',
+            img:'07.jpg'
+        },
+        {
+            titulo:'Buscador de Comidas',
+            link:'MealFinder',
+            texto:'Un simple sistema que nos mostrara una receta',
+            img:'08.jpg'
         }
     ];
